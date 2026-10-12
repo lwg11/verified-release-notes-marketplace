@@ -1,0 +1,47 @@
+{
+  "name": "verified-release-notes-marketplace",
+  "owner": {
+    "name": "liangweiguo",
+    "email": "2815171417@qq.com"
+  },
+  "metadata": {
+    "description": "可验证的中文发版助手 —— 把口语化、中英混写的中文提交整理成经过程序校验的发版说明。",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "verified-release-notes",
+      "source": "./plugins/verified-release-notes",
+      "description": "把 git 提交整理成可校验的中文发版说明，并在校验通过后打 tag 与建 Release。当用户要发版、发布新版本、写 release notes、changelog、更新日志、版本说明或整理本次更新时使用。不用于改写单条提交信息或非 git 项目。",
+      "version": "0.1.0",
+      "author": {
+        "name": "liangweiguo"
+      },
+      "license": "TODO-待填写",
+      "keywords": [
+        "发版",
+        "release",
+        "changelog",
+        "更新日志",
+        "版本说明",
+        "中文提交",
+        "Git",
+        "SemVer",
+        "DevOps"
+      ],
+      "category": "研发效能",
+      "tags": [
+        "发版",
+        "release",
+        "changelog",
+        "更新日志",
+        "版本说明",
+        "中文提交",
+        "Git",
+        "SemVer",
+        "DevOps"
+      ],
+      "strict": true
+    }
+  ]
+}
